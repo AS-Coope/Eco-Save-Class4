@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav_b {
+    background-color: #F0FDF4;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-bottom: 5px solid #052E16;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right_side {
+    margin-top: 50px;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    background-color: #052E16;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#hero {
+    background-image: url("../img/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.topic_heading {
+    background-color: #F0FDF4;
+    border-bottom: 3px solid #000000;
+    border-top: 3px solid #000000;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#right_side a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#right_side #selected_page {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 0px;
+}
+
+#hero #call_to_action {
+    padding-left: 20px;
+    width: 190px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.topic_heading h1 {
+    margin: 0px;
+}
+
+.inline_tip {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tip {
+    display: flex;
+    gap: 20px;
+}
+
+.tip_image_box {
+    background-color: #DCFCE7;
+    width: 250px;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.tip_image_box img {}
