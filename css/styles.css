@@ -9,7 +9,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+.title_link {
 
     text-decoration: none;
     color: black;
@@ -59,6 +59,7 @@ a {
     margin-top: 2rem;
     font-size: 1.25rem;
     border: 5px black solid;
+    background-color: #F0FDF4;
 }
 
 #right_side a {
@@ -133,4 +134,12 @@ h3 {
 .tip_info {
 
     display: inline;
+}
+
+/*
+About Page Specific
+*/
+
+.content {
+    margin: 2rem;
 }
