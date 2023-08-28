@@ -17,7 +17,10 @@ body {
 
 .energy {
 
-    color: rgb(0, 77, 0);
+    color: white;
+    background-color: #052E16;
+    border-radius: 10px;
+    border: 2px #052E16 solid;
 }
 
 #nav_b {
