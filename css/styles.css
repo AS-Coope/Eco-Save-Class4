@@ -121,6 +121,11 @@ h3 {
     font-size: 1.5rem;
 }
 
+img {
+    width: 200px;
+    height: 186px;
+}
+
 .tip_image_box {
 
     width: 250px;
