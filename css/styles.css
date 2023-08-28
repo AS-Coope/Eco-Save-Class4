@@ -47,7 +47,7 @@ body {
     background-image: url("../img/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg");
     background-position: center;
     background-size: cover;
-    height: 450px;
+    height: 70vh;
     display: flex;
     align-items: center;
 }
@@ -84,8 +84,8 @@ h3 {
 #hero #call_to_action {
 
     padding-left: 20px;
-    width: 190px;
-    font-size: 36px;
+    width: 100%;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -105,7 +105,7 @@ h3 {
 .tip_body {
 
     display: flex;
-    gap: 30px;
+    gap: 1.9rem;
     border: 3px black solid;
     border-radius: 15px;
 }
@@ -123,14 +123,14 @@ h3 {
 }
 
 img {
-    width: 200px;
-    height: 186px;
+    width: 45%;
+    height: 30%rem;
 }
 
 .tip_image_box {
 
-    width: 250px;
-    height: 236px;
+    width: 40%;
+    height: 35%rem;
     display: flex;
     justify-content: center;
     align-items: center;
