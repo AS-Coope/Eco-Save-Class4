@@ -1,13 +1,27 @@
 * {
+
     box-sizing: border-box;
 }
 
 body {
+
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.energy {
+
+    color: rgb(0, 77, 0);
 }
 
 #nav_b {
+
     background-color: #F0FDF4;
     padding: 10px;
     padding-bottom: 0px;
@@ -17,18 +31,19 @@ body {
 }
 
 #right_side {
+
     margin-top: 50px;
-    font-size: 32px;
+    font-size: 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: end;
-    gap: 20px;
     background-color: #052E16;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 #hero {
+
     background-image: url("../img/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg");
     background-position: center;
     background-size: cover;
@@ -38,14 +53,16 @@ body {
 }
 
 .topic_heading {
-    background-color: #F0FDF4;
-    border-bottom: 3px solid #000000;
-    border-top: 3px solid #000000;
-    margin-top: 50px;
-    text-align: center;
+
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    border: 5px black solid;
 }
 
 #right_side a {
+
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -53,15 +70,18 @@ body {
 }
 
 #right_side #selected_page {
+
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h3 {
+
     margin: 0px;
 }
 
 #hero #call_to_action {
+
     padding-left: 20px;
     width: 190px;
     font-size: 36px;
@@ -69,30 +89,48 @@ h3 {
 }
 
 .topic_heading h1 {
+
     margin: 0px;
 }
 
-.inline_tip {
+.category_tips {
+
     margin: 60px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.9rem;
 }
 
-.tip {
+.tip_body {
+
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+
+.tips {
+
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+}
+
+.tip_heading {
+
+    font-size: 1.5rem;
 }
 
 .tip_image_box {
-    background-color: #DCFCE7;
+
     width: 250px;
     height: 236px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
-    border-radius: 15px;
+    border-right: 3px solid black;
 }
 
-.tip_image_box img {}
+.tip_info {
+
+    display: inline;
+}
